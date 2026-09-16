@@ -8,7 +8,7 @@ pipeline {
                 git url: 'https://github.com/divyavsigma/repo1.git', branch: 'main'
 
                 // Run the build on a Unix agent. You must have Maven installed.
-                echo 'Hello worl'
+                echo 'Hello world!!!'
 
                 // To run Maven on a Windows agent, use
                 // bat 'mvn -Dmaven.test.failure.ignore=true clean package'
